@@ -1,14 +1,4 @@
-//<<<<<<< HEAD
-#include <GyverHub.h>  // Подключаем библиотеку для 
-#include <WiFi.h> // Подключаем библиотеку для 
-#include <WebServer.h>
-#include <Arduino.h>
-#include <AsyncTCP.h>
-#include <EEPROM.h>
-#include <ESPAsyncWebServer.h>
-#include <RCSwitch.h>
-//=======
-/*
+
 #include <GyverHub.h>  // Подключаем библиотеку для билдера
 #include <WiFi.h> // Подключаем библиотеку для WiFi модуля
 #include <WebServer.h> // Подключаем библиотеку для отиображения html web страницы
@@ -17,8 +7,7 @@
 #include <EEPROM.h>  // Подключаем библиотеку для эмулированной EEPROM памяти во Flash
 #include <ESPAsyncWebServer.h>  // Подключаем библиотеку для отиображения html web страницы
 #include <RCSwitch.h>  // Подключаем библиотеку для радиомодуля 433 МГц
-//>>>>>>> d82f7f0 (Updated comments)
-*/
+
 AsyncWebServer server(80); //номер порта сервера на ESP32
 TaskHandle_t Task2; //объявление задачи для FreeRTOS
 RCSwitch mySwitch = RCSwitch(); //объявление имени структуры для работы с радиомодулем 433 МГц 
