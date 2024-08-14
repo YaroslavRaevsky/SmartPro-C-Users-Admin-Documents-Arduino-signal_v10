@@ -1,4 +1,5 @@
 
+//fgfhgfjhfgh
 #include <GyverHub.h>  // Подключаем библиотеку для билдера
 #include <WiFi.h> // Подключаем библиотеку для WiFi модуля
 #include <WebServer.h> // Подключаем библиотеку для отиображения html web страницы
@@ -6,6 +7,8 @@
 #include <AsyncTCP.h>  // Подключаем библиотеку для обмена данными по сети через протоколы TCP
 #include <EEPROM.h>  // Подключаем библиотеку для эмулированной EEPROM памяти во Flash
 #include <ESPAsyncWebServer.h>  // Подключаем библиотеку для отиображения html web страницы
+#include <RCSwitch.h>  // Подключаем библиотеку для радиомодуля 433 МГц
+#include <RCSwitch.h>  // Подключаем библиотеку для радиомодуля 433 МГц
 #include <RCSwitch.h>  // Подключаем библиотеку для радиомодуля 433 МГц
 
 AsyncWebServer server(80); //номер порта сервера на ESP32
