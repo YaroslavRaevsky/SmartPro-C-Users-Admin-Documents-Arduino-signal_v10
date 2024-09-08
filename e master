@@ -1,0 +1,23 @@
+[33mcommit 4d4ea29e08ae567418dc84813e39fbc1dfc0f66c[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: YaroslavRaevsky <raevskyyar@yandex.ru>
+Date:   Sun Sep 8 14:14:40 2024 +0300
+
+    Modified initialisation of ChrPin
+
+[33mcommit 9d5ec6d1029fe38063e839a9f66fe141ac9830e4[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: YaroslavRaevsky <raevskyyar@yandex.ru>
+Date:   Wed Aug 14 17:03:20 2024 +0300
+
+    Fixed fuction Shift16Leds
+
+[33mcommit 923ae34c5d8053b9284fb6c93143126e83ccea65[m
+Author: YaroslavRaevsky <raevskyyar@yandex.ru>
+Date:   Wed Aug 14 15:01:31 2024 +0300
+
+    Remove dublicate includes
+
+[33mcommit 0ce87b47e654a91c7cd9f61caae74f20ee2c1d38[m
+Author: YaroslavRaevsky <raevskyyar@yandex.ru>
+Date:   Tue Aug 13 13:38:23 2024 +0300
+
+    Reinitialized pin for 433MHz module
